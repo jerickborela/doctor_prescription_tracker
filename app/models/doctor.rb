@@ -1,3 +1,4 @@
 class Doctor < ApplicationRecord
-    validate :name, presence: true
+    validates :name, presence: true
+    has_many :prescription
 end
