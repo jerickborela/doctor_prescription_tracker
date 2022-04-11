@@ -1,6 +1,6 @@
 require "test_helper"
 
-class PrescriptionTest < ActiveSupport::TestCase
+class PrescriptionMedicineTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
